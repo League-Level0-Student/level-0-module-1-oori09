@@ -26,12 +26,13 @@ JOptionPane.showMessageDialog(null, "corect!");
 score += 10;}
 		// 5. Otherwise, say "wrong" and tell them the answer
 else {
-	JOptionPane.showMessageDialog(null, "wrong! the corect answer is nothing");}
+	JOptionPane.showMessageDialog(null, "wrong! the corect answer is nothing");
 }
 		// 6. Add some more riddles
-
+JOptionPane.showInputDialog("there are two doors, one two richers and the other to a dongen, with two gaurds,\n "+ 
+		"one a truth teller and the other a liar you can only ask them one qution that is the same what is that qustion.");
 		// 2. Make a pop up to show the score.
 		
 	
 }
-
+}
